@@ -1,0 +1,71 @@
+.placegolder_pic img {
+    border-radius: 5px;
+}
+
+
+.profile_pic_placeholder {
+    width: 110px;
+    height: 110px;
+    border-radius:50%;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    margin-top: -120px;
+    background-image: linear-gradient(#962fbf  , #fa7e1e , #d62976 ,#feda75 );
+}
+
+.background_black {
+     background-image: linear-gradient( #00000000, #000000c2);
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.profile_pic_1 {
+    background-image: url("img/strory/01.jpg");    
+    background-size: cover;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+}
+
+.profile_pic_2 {
+    background-image: url("img/strory/05.jpg");    
+    background-size: cover;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+}
+
+.profile_pic_3 {
+    background-image: url("img/strory/03.jpg");    
+    background-size: cover;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+}
+
+.profile_pic_4 {
+    background-image: url("img/strory/04.jpg");    
+    background-size: cover;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+}
+
+.profile_pic_5 {
+    background-image: url("img/strory/05.jpg");    
+    background-size: cover;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .single_sec {
+        margin-top: 15px;
+    }    
+  }
